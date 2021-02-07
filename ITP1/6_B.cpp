@@ -3,7 +3,7 @@ using namespace std;
 
 int	main()
 {
-	bool cards[4][13];
+	bool cards[4][14];
 	int n, rank;
 	char suit;
 
