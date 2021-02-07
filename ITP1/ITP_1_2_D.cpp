@@ -7,7 +7,7 @@ int	main()
 
 	cin >> W >> H >> x >> y >> r;
 
-	if ((r < x && x < W -r) && (r < y && y < H - r))
+	if ((r <= x && x <= W -r) && (r <= y && y <= H - r))
 		cout << "Yes" << endl;
 	else
 		cout << "No" << endl;
