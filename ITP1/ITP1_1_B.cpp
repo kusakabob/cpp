@@ -7,7 +7,6 @@ int	main()
 
 	cin >> x;
 	x = x * x * x;
-int	main()
 	cout << x << endl;
 	return (0);
 };
